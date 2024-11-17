@@ -25,6 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Minimalistic CSV Viewer</title>
+        <meta name="description" content="Minimalistic CSV Viewer by Sumanth Madishetty"></meta>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
