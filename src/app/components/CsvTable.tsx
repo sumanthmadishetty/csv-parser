@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const CsvTable = ({ data, setData }) => {
+const CsvTable = ({ data }: any) => {
   const [editedData, setEditedData] = useState(data);
 
   const handleEdit = (rowIndex, colIndex, value) => {
